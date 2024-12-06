@@ -1,12 +1,82 @@
+@import 'bootstrap/dist/css/bootstrap.css';
 
-/* 
+/*Contenedor principal*/
+.flux-counter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.flux-timer{
+    font-size: 5rem;
+    color: #ff3131;
+    text-shadow: 
+    0 0 3px #ff3131,
+    0 0 3px #ff3131,
+    0 0 3px #ff3131,
+    0 0 3px #ff3131;
+    border: 3px solid #ff3131;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #000, #1a1a1a);
+    box-shadow: 0 0 20px #ff3131;
+}
 
-*/
+/*Botones*/
+.flux-btn{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px, 0 0 15px, 0 0 15px;
+}
+
+.flux-btn:hover{
+    transform: scale(1:1);
+}
+
+.flux-btn-red{
+    background: #ff3131;
+    box-shadow: 0 0 10px #ff3131, 0 0 10px #ff3131, 0 0 15px #ff3131;
+}
+
+.flux-btn-red:hover{
+    background: #ff5151;
+    box-shadow: 0 0 5px #ff5151, 0 0 10px #ff5151;
+}
+
+/*botón stop*/
+.flux-btn-blue{
+    background: #3131ff;
+    color: #fff;
+    box-shadow: 0 0 10px #3131ff, 0 0 10px #3131ff, 0 0 15px #3131ff;
+}
+
+.flux-btn-blue:hover{
+    background: #5151ff;
+    box-shadow: 0 0 5px #5151ff, 0 0 10px #5151ff;
+}
+
+/*botón resumen*/
+.flux-btn-green{
+    background: #31ff31;
+    box-shadow: 0 0 10px #31ff31, 0 0 10px #31ff31, 0 0 15px #31ff31;
+}
+
+.flux-btn-green:hover{
+    background: #51ff51;
+    box-shadow: 0 0 5px #51ff51, 0 0 10px #51ff51;
+}
