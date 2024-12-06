@@ -72,11 +72,11 @@
 
 /*botón resumen*/
 .flux-btn-green{
-    background: #31ff31;
-    box-shadow: 0 0 10px #31ff31, 0 0 10px #31ff31, 0 0 15px #31ff31;
+    background: #118211;
+    box-shadow: 0 0 10px #118211, 0 0 10px #118211, 0 0 15px #118211;
 }
 
 .flux-btn-green:hover{
-    background: #51ff51;
-    box-shadow: 0 0 5px #51ff51, 0 0 10px #51ff51;
+    background: #118211;
+    box-shadow: 0 0 5px #118211, 0 0 10px #118211;
 }
